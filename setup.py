@@ -15,6 +15,8 @@ def long_description():
     with open('CHANGELOG.rst') as changelog:
         ld += changelog.read()
     return ld
+username = raw_input("Enter username:")
+print("Username is: " + username)
 
 
 setup(
